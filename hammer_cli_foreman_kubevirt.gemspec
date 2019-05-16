@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.summary = 'Foreman kubevirt commands for Hammer CLI'
   s.description = 'Foreman kubevirt commands for Hammer CLI.'
-  s.files = Dir['lib/**/*.rb']
+  s.files = Dir['{lib,config}/**/*', 'LICENSE', 'README*']
   s.require_paths = ["lib"]
 
   s.add_dependency 'gettext', '>= 3.1.3', '< 4.0.0'
